@@ -15,6 +15,6 @@ col=[min(x) for x in zip(*new)]#min column
 SUMA=sum(mi)+sum(col)
 
 print(n,num[0],n,num[1],n,num[2])	
-print(n,'Min numbers of line(рядок):',mi,n,'Min num of column(стовпець)',col)
+print(n,'Min numbers of line(рядок):',mi)
 print(n,'after reducing',n,new[0],n,new[1],n,new[2])
-print(n,'Сума констант редукції:',SUMA)
+print(n,'Min num of column(стовпець)',col,n,'Сума констант редукції:',SUMA)
